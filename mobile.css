@@ -1,0 +1,42 @@
+*{
+    overflow-x: hidden;
+}
+.item-container{
+display: flex;
+flex-direction: column;
+}
+.item{
+    height: 400px;
+    width: 400px;
+}
+.item:nth-child(1){
+    padding: 10px;
+}
+.buttons{
+    left: 200px;
+    bottom: 400px;
+}
+.item:nth-child(2) h2{
+   font-size: 2.5rem;
+
+}
+.item:nth-child(2){
+    padding: 60px 40px ;
+}
+.logo{
+    display: none;
+}
+.menulist{
+    visibility: hidden;
+
+}
+  
+.menulist li a{
+    color: black;
+}
+.bar{
+    background-color: transparent;
+    border: none;
+    visibility: visible;
+}
+

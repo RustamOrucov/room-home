@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--=========== google font link========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- mobile csss -->
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-device-width: 600px)">
+  </head>
+  <body>
+    <div class="item-container">
+      <div class="item">
+          <div class="mySlidesimg">
+            <img src="./images/desktop-image-hero-1.jpg" alt="" class="img hero" />
+         
+        </div>
+          <div class="mySlidesimg">
+            <img src="./images/desktop-image-hero-2.jpg" alt="" class="img hero" />
+         
+        </div>
+          <div class="mySlidesimg">
+            <img src="./images/desktop-image-hero-3.jpg" alt="" class="img hero" />
+         
+        </div>
+
+        <nav class="navmenu">
+            <button class="bar" onclick="Hide()"><img src="./images/icon-hamburger.svg" alt=""></button>
+          <div class="logo">room</div>
+          <ul class="menulist">
+            <button class="close" onclick="Close()"><img src="./images/icon-close.svg" alt=""></button>
+            <li><a href="#" class="link">home</a></li>
+             <li><a href="#" class="link">about</a></li>
+            <li><a href="#" class="link">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="item">
+        <div class="mySlides fade">
+          <h2>Discover innovative ways to decorate</h2>
+          <p>
+            We provide unmatched quality, comfort, and style for property owners
+            across the country. Our experts combine form and function in
+            bringing your vision to life. Create a room in your own style with
+            our collection and make your property a reflection of you and what
+            you love.
+          </p>
+        </div>
+
+        <div class="mySlides fade">
+          <h2>We are available all across the globe</h2>
+          <p>
+            With stores all over the world, it's easy for you to find furniture
+            for your home or place of business. Locally, we’re in most major
+            cities throughout the country. Find the branch nearest you using our
+            store locator. Any questions? Don't hesitate to contact us today.
+          </p>
+        </div>
+
+        <div class="mySlides fade">
+          <h2>Manufactured with the best materials</h2>
+          <p>
+            Our modern furniture store provide a high level of quality. Our
+            company has invested in advanced technology to ensure that every
+            product is made as perfect and as consistent as possible. With three
+            decades of experience in this industry, we understand what customers
+            want for their home and office.
+          </p>
+        </div>
+
+        <div class="shopbtn">
+          Shop now <img src="./images/icon-arrow.svg" alt="" class="arrow" />
+        </div>
+
+        <div class="buttons">
+          <button onclick="plusSlides(-1)">
+            <img src="./images/icon-angle-left.svg" alt="" class="leftbtn" />
+          </button>
+          <button onclick="plusSlides(1)">
+            <img src="./images/icon-angle-right.svg" alt="" class="rightbtn" />
+          </button>
+        </div>
+      </div>
+      <div class="item">
+        <img src="./images/image-about-dark.jpg" alt="" class="img" />
+      </div>
+      <div class="item">
+        <h2>About our furniture</h2>
+        <p>
+          Our multifunctional collection blends design and function to suit your
+          individual taste. Make each room unique, or pick a cohesive theme that
+          best express your interests and what inspires you. Find the furniture
+          pieces you need, from traditional to contemporary styles or anything
+          in between. Product specialists are available to help you create your
+          dream space.
+        </p>
+      </div>
+      <div class="item">
+        <img src="./images/image-about-light.jpg" alt="" class="img" />
+        
+      </div>
+    </div>
+
+    <script src="./sript.js"></script>
+  </body>
+</html>
